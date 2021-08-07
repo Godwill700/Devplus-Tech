@@ -1,0 +1,26 @@
+{
+  "name": "devplus-tech",
+  "version": "1.0.0",
+  "description": "Devplus Tech Website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "keyywords": [
+    "Devplus",
+    "Tech shop",
+    "Bootstrap",
+    "Bootstrap-v5"
+  ],
+  "author": "Charles Chinyemmba",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.3.1",
+    "bootstrap": "^5.0.2",
+    "postcss-cli": "^8.3.1"
+  }
+}
